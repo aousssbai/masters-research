@@ -284,13 +284,13 @@ for connection in finalEncodedLogs:
         with open('scores.csv', 'r+b') as f:
             header = next(csv.reader(f))
             dict_writer = csv.DictWriter(f, header, -999)
-            dict_writer.writerow({'source':'pf','output':'1','confidence':unicode(response["Results"]["output1"]["value"]["Values"][0][9])})
+            dict_writer.writerow({'source':'pf','output':'1','confidence':unicode(response["Results"]["output1"]["value"]["Values"][0][9]*0.769)})
 
     else: 
         with open('scores.csv', 'r+b') as f:
             header = next(csv.reader(f))
             dict_writer = csv.DictWriter(f, header, -999)
-            dict_writer.writerow({'source':'pf','output':'0','confidence':unicode(response["Results"]["output1"]["value"]["Values"][0][8])})    
+            dict_writer.writerow({'source':'pf','output':'0','confidence':unicode(response["Results"]["output1"]["value"]["Values"][0][8]*0.998)})    
 
 
 
