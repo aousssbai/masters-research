@@ -187,12 +187,12 @@ for connection in ise_data:
 
     if response["Results"]["output1"]["value"]["Values"][0][15] == "1":
         with open('scores.csv','a') as fd:
-            fd.write("ise,1,"+unicode(response["Results"]["output1"]["value"]["Values"][0][14]*0.929))
+            fd.write("ise,1,"+unicode(float(response["Results"]["output1"]["value"]["Values"][0][14])*0.929))
          
 
     else: 
         with open('scores.csv','a') as fd:
-            fd.write("ise,0,"+unicode(response["Results"]["output1"]["value"]["Values"][0][13]*0.99))    
+            fd.write("ise,0,"+unicode(float(response["Results"]["output1"]["value"]["Values"][0][13])*0.99))    
 
 
 
