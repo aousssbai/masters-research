@@ -135,7 +135,7 @@ for connection in final:
     refValues['top10Apps']      = ["CAEAIprod-directory","CAEAXprod-learn","CAEAIprod-wampmt","CAEAXprod-taclearning","CDCprod-www","CAEAXprod-mymobile","CAEAXprod-mymobilesetup","CAEAIprod-myid","CAEAXprod-askeva","CAEAIprod-API-myid-api"]
     refValues['top10Resrouces'] = ["learn.cisco.com [] / /*:443","directory.cisco.com [] / /dir/dwr/*:443","wampmt.cisco.com [] / /*:443","taclearning.cisco.com [] / /*:443","directory.cisco.com [] / /*:443","mymobile.cisco.com [] / /*:443","wwwin.cisco.com [] / /c/dam/cec/*:443","mymobilesetup.cisco.com [] / /*:443","myid.cisco.com [] / /*:443","wwwin.cisco.com [] / /etc/*:443"]
     refValues['topAuthMech']    = ["Cookie","OAuth"]
-    refValues['topClients']     = ["72.163.10.116","173.37.20.60","72.163.25.187","173.37.26.104","173.37.149.116","173.37.111.62","173.37.111.53","173.37.111.55","173.37.111.38","173.37.111.41"]
+    refValues['topClients']     = []
     refValues['responseCode']   = 277
     refValues['avgRoundTrip']   = 32.77619342839429
     refValues['top10Hours']     = [17,16,18,15,21,11,13,8,20,12]
