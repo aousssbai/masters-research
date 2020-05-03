@@ -176,8 +176,8 @@ for connection in ise_data:
     
     body = str.encode(json.dumps(data))
 
-    url = 'https://ussouthcentral.services.azureml.net/workspaces/314d80c302f942f08187131ffd595f24/services/682793a9801c4d69b30c3eb2526ef341/execute?api-version=2.0&details=true'
-    api_key = 'RUxNd9QPdytS1tNNiilMBNcV4F77qxzPXLKuE/IuVp+z65+POIoBKl9vX21Im4BwKoLFTM/LnKq7q+zTriByAQ=='
+    url = 'URL_OF_THE_DEPLOYED_MODEL'
+    api_key = 'YOUR_API_KEY'
     headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
 
