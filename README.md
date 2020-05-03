@@ -7,7 +7,7 @@ Here is how it works:
 
 - Once the endopoint has received a log, it saves it to a csv file. This file is then going to be processed by a script (either ise_grouping_formatting.py, pf_grouping_formatting.py or pa_grouping_formatting.py, depending on the log type). The processing consists in formatting the log so it can be ingested by a machine learning ML, send the formatted logs to the ML model and receive the resulting score.
 
-- Finally, once the scripts are done running, they save the reuslting score into the file scores.csv.
+- Finally, once the scripts are done running, they save the resulting score into the file scores.csv.
 
 Notes: 
 - if you wish to test this code, you need to make this API acccessible, so the easiest way would be to use ngrok. By default, the API runs on localhost, port 5000. To launch the API, you need to type in the following command:
