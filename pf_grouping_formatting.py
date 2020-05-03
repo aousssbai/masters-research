@@ -168,7 +168,7 @@ for connection in PF:
         unknownClients = []
         
         refValues = {}
-        refValues['topClients'] = ["2001:420:c0c0:1011::99","173.37.89.200","173.37.89.201","173.37.89.199","173.37.89.202","173.37.89.198","173.37.89.203","173.36.90.103","2001:420:c0c0:1011::21","2001:420:c0c0:1011::84"]
+        refValues['topClients'] = []
         refValues['events']  = ["OAuth","AUTHN_ATTEMPT","SSO", "STS","SLO"]
         refValues['protocols']     = ['OIDC','SAML20','OAuth20','WSFED', "WSTrust", "SAML11"]
         
