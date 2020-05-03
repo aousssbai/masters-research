@@ -228,8 +228,8 @@ for connection in finalEncodedLogs:
     
     body = str.encode(json.dumps(data))
 
-    url = 'https://ussouthcentral.services.azureml.net/workspaces/314d80c302f942f08187131ffd595f24/services/ddc93cef54f0496aa43b13da421b364b/execute?api-version=2.0&details=true'
-    api_key = '6TAOM8V0oFTioBg6CmC6MoMOr1H3drCHiuoPVUCfrjo/E2iIx6dpPYfZTcLEY0t2fpn+F3l75yzPutIRDAAWSg=='
+    url = 'URL_OF_THE_DEPLOYED_MODEL'
+    api_key = 'YOUR_API_KEY'
     headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
 
