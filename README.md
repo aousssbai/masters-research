@@ -3,7 +3,7 @@
 This is the API that has been used to collect the logs from Splunk, process them, and generate the score for each log type. 
 Here is how it works: 
 
-- the first step is in the file splunkAPI.py. This is where all the endpoints are defined. Tjose endpoints will be receiving the logs. Each endpoint takes care of a different log type.
+- the first step is in the file splunkAPI.py. This is where all the endpoints are defined. Those endpoints will be receiving the logs. Each endpoint takes care of a different log type.
 
 - Once the endopoint has received a log, it saves it to a csv file. This file is then going to be processed by a script (either ise_grouping_formatting.py, pf_grouping_formatting.py or pa_grouping_formatting.py, depending on the log type). The processing consists in formatting the log so it can be ingested by a machine learning ML, send the formatted logs to the ML model and receive the resulting score.
 
